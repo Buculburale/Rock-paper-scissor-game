@@ -1,8 +1,10 @@
+// Function to randomly choose the computer's move
 function getComputerChoice() {
   const choice = ['rock', 'paper', 'scissors'];
   return choice [Math.floor(Math.random() * choice.length)];
 }
 
+// Function to determine the result of a single round
 function playRound(playerSelection, computerSelection) {
   if (playerSelection === computerSelection) {
     return "it is a tie";
@@ -17,6 +19,8 @@ function playRound(playerSelection, computerSelection) {
   }
          
 }
+
+// Function to manage the game
 function game() {
   let playerScore = 0;
   let computerScore = 0;
@@ -31,6 +35,7 @@ function game() {
     computerScore++;
   }
 
+  // Determine the winner of the game
   if (playerScore > computerScore) {
     console.log("player wins the game");
   }else if (computerScore > playerScore) {
@@ -41,4 +46,5 @@ function game() {
 }
 }
 
+// Start the game
 game();
