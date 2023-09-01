@@ -1,8 +1,8 @@
 # Rock-paper-scissor-game
-Overview
+Overview:
 This simple web-based Rock-Paper-Scissors game allows users to play against a computer opponent. The game consists of a basic HTML structure and a JavaScript program that handles the game's logic. Players make their selections, and the computer randomly selects its move. The winner of each round and the overall game winner are determined and displayed in the console.
 
-Game Logic
+Game Logic:
  The game's JavaScript logic is divided into three main functions:
 
 1. getComputerChoice(): This function randomly selects the computer's move from "rock," "paper," or "scissors."
