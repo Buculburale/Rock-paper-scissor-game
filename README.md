@@ -1,12 +1,20 @@
-# Rock-paper-scissor-game
-Overview:
-This simple web-based Rock-Paper-Scissors game allows users to play against a computer opponent. The game consists of a basic HTML structure and a JavaScript program that handles the game's logic. Players make their selections, and the computer randomly selects its move. The winner of each round and the overall game winner are determined and displayed in the console.
+## Overview
 
-Game Logic:
- The game's JavaScript logic is divided into three main functions:
+This project provides a user-friendly interface for playing rock-paper-scissors against a computer opponent. It keeps track of the player's and computer's scores and announces the game winner when one of the players reaches a score of 5.
 
-1. getComputerChoice(): This function randomly selects the computer's move from "rock," "paper," or "scissors."
+## Features
 
-2. playRound(playerSelection, computerSelection): This function takes the player's and computer's selections as arguments and determines the result of a single round based on the Rock-Paper-Scissors rules.
+- Interactive buttons for the player to choose rock, paper, or scissors.
+- Real-time display of round results.
+- Tracking and display of player and computer scores.
+- Announces the game winner when a player reaches a score of 5.
+- Clearing of round results and score resets to start a new game.
 
-3. game(): The game function manages the entire game. It keeps track of the player's and computer's scores over five rounds and determines the overall winner.
+## How to Play
+
+1. Open the web page in your browser.
+2. Click on the "Rock," "Paper," or "Scissors" button to make your choice.
+3. The computer will randomly choose its move.
+4. The result of the round will be displayed in real-time.
+5. Keep playing until one player (either you or the computer) reaches a score of 5.
+6. The game will announce the winner and reset the scores for a new game.
